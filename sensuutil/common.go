@@ -16,9 +16,9 @@ const EnvironmentFile string = "/etc/sensu/conf.d/monitoring_infra.json"
 // utilize existing maps for alerting and help avoid unnecessary noise.
 var MonitoringErrorCodes = map[string]int{
 	"GENERALGOLANGERROR": 129, // internal script error
-	"CONFIGERROR":        127, // unix config error, not enough parms, etc
+	"CONFIGERROR":        127, // unix config error, not enough paramaters, etc
 	"PERMISSIONERROR":    126, // not executable, etc
-	"RUNTIMEERROR":       42,  // self explantory
+	"RUNTIMEERROR":       42,  // self explanatory
 	"DEBUG":              37,  // You had the Alliance on you, criminals and savages… half the people on this
 	// ship have been shot or wounded, including yourself, and you’re harboring known fugitives.
 	"UNKNOWN":  3, // Would it save you a lot of time if I just gave up and went mad now?
