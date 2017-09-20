@@ -20,6 +20,7 @@ import (
 )
 
 // AcquireUchiwa returns an uchiwa url for the node alerting
+// It requires uchiwa to be running in a consul environment
 func (e EnvDetails) AcquireUchiwa(h string, c string) string {
 
 	tags := e.Sensu.Consul.Tags

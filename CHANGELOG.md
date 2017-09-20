@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## 0.2.1 - 2017-09-20
+### Changed
+- updated comments and error codes
+
 ## 0.2.0 - 2016-04-03
 ### Added
 - added functionality to return uchiwa url if using consul
